@@ -1,0 +1,13 @@
+vpc_cidr="10.10.0.0/16"
+vpc_name="myvpc"
+igw_name="myigw"
+route_cidr="0.0.0.0/0"
+route_name="myroute"
+sub_name="mysubnet"
+sub_cidr="10.10.20.0/24"
+sg_name="myvpcsg"
+instance_count=3
+ami_id="ami-40d28157"
+instance_type="t2.micro"
+key_pair_name="beaula key"
+env="k8s"
